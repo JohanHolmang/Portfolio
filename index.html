@@ -10,104 +10,150 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 </head>
 
 <body>
-    <section id="welcome-section">
-        <h1>
-            Johan Holmäng
-        </h1>
+    <!--     <nav id="navbar">
+        <ul>
+            <li>
+                <a href="#My_Projects">My Projects</a>
+            </li>
+            <li>
+                <a href="#About_me">About me</a>
+            </li>
+            <li>
+                <a href="#My_hobbies">My hobbies</a>
+            </li>
+            <li>
+                <a href="#My_favorite_games">My favorite games</a>
+            </li>
+        </ul>
+    </nav> -->
+    <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#projects">My Projects</a>
+        <a class="navbar-brand" href="#About_me">About me</a>
+        <a class="navbar-brand" href="#My_hobbies">My hobbies</a>
+        <a class="navbar-brand" href="#My_favorite_games">My favorite games</a>
+    </nav>
+    <div class="Ivor">
+        <div id="welcome-section">
+            <h1>
+                Johan Holmäng's portfolio
+            </h1>
+        </div>
+        <section id="projects">
+            <h2 class="work-header">My Projects</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <div class="card project-tile" style="height: 400px;">
+                            <img class=" card-img-top" src="Technical_Documentation.png" alt="project">
+                            <div class="card-body">
+                                <h5 class="card-title">Technical Documentation</h5>
+                                <p class="card-text">This is my Technical Documentation Project.</p>
+                                <a href="https://codepen.io/Lt_Slayer/pen/PxOVqw" class="btn btn-primary" target="_blank">Click
+                                    to see</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card project-tile" style="height: 400px;">
+                            <img class=" card-img-top" src="Tribute_Page.png" alt="project">
+                            <div class="card-body">
+                                <h5 class="card-title">Tribute Page</h5>
+                                <p class="card-text">This is my Dethklok Tribute Page Project.</p>
+                                <a href="https://codepen.io/Lt_Slayer/pen/BGPEjo" class="btn btn-primary" target="_blank">Click
+                                    to see</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
     </section>
-    <div id="projects">
-        <h2 class="work-header">My Projects</h2>
-        <a href="https://codepen.io/Lt_Slayer/pen/PxOVqw" target="_blank" class="project project-tile">
-            <img class="project-pic" src="" alt="project">
-            <div class="project-title">Technical-Documentation</div>
-        </a>
-        <a href="https://codepen.io/Lt_Slayer/pen/BGPEjo" target="_blank" class="project project-tile">
-            <img class="project-pic" src="" alt="project">
-            <div class="project-title">Tribute Page</div>
-        </a>
+
+    <main>
+        <h2 class="Tim">Info</h2>
+        <section class="main-section" id="About_me">
+            <header class="unique">About me</header>
         </section>
+        <article>
+            <p class="Dave">
+                I live in Finland in village called Forsby and im currently 16 years old as of 2018. Im a
+                pretty
+                quiet person, but i'll gladly engage in a conversation with friends.
+            </p>
+        </article>
+        <section class="main-section" id="My_hobbies">
+            <header class="unique">My hobbies</header>
+        </section>
+        <article>
+            <p class="Dave">
+                I love to play video games all day long.
+            </p>
+        </article>
 
-        <nav id="navbar">
-            <header>Info</header>
-            <ul>
-                <a class="nav-link" href="#About_me" rel="internal"></a>
-                <li>About me</li>
-                <a class="nav-link" href="#My_hobbies" rel="internal"></a>
-                <li>My hobbies</li>
-                <a class="nav-link" href="#My_favorite_games" rel="internal"></a>
-                <li>My favorite games</li>
+        <section class="main-section" id="My_favorite_games">
+            <header class="unique">My favorite games</header>
+        </section>
+        <article class="Rob">
+            <ul class="Cornelius">
+                <li>
+                    Team Fortress 2
+                </li>
+                <li>
+                    Grand Theft Auto V
+                </li>
+                <li>
+                    Insurgency: Sandstorm
+                </li>
+                <li>
+                    Farming Simulator 2019
+                </li>
+                <li>
+                    Euro Truck Simulator 2
+                </li>
+                <li>
+                    Any Call of Duty games i have at the moment
+                </li>
+                <li>
+                    The Elder Scrolls V: Skyrim Special Edition
+                </li>
+                <li>
+                    Counter-Strike: Global Offensive
+                </li>
+                <li>
+                    Garry's Mod
+                </li>
+                <li>
+                    Amnesia: The Dark Descent
+                </li>
+                <li>
+                    All of the Half-Life games
+                </li>
+                <li>
+                    Left 4 Dead 2
+                </li>
+                <li>
+                    Verdun
+                </li>
             </ul>
-        </nav>
-        <main>
-            <h2>Info</h2>
-            <section class="main-section" id="About_me">
-                <header>About me</header>
-                <article>
-                    <p>
-                        I live in Finland in village called Forsby and im currently 16 years old as of 2018. Im a
-                        pretty
-                        quiet person, but i'll gladly engage a conversation with friends.
-                    </p>
-                </article>
-            </section>
-            <section class="main-section" id="My_hobbies">
-                <header>My hobbies</header>
-                <article>
-                    <p>
-                        I love to play video games all day long.
-                    </p>
-                </article>
-            </section>
-            <section class="main-section" id="My_favorite_games">
-                <header>My favorite games</header>
-                <article>
-                    <ul>
-                        <li>
-                            Team Fortress 2
-                        </li>
-                        <li>
-                            Farming Simulator 2019
-                        </li>
-                        <li>
-                            Any Call of Duty games i have at the moment
-                        </li>
-                        <li>
-                            The Elder Scrolls V: Skyrim Special Edition
-                        </li>
-                        <li>
-                            Counter-Strike: Global Offensive
-                        </li>
-                        <li>
-                            Garry's Mod
-                        </li>
-                        <li>
-                            Amnesia: The Dark Descent
-                        </li>
-                        <li>
-                            All of the Half-Life games
-                        </li>
-                        <li>
-                            Left 4 Dead 2
-                        </li>
-                    </ul>
-                </article>
-            </section>
+        </article>
+        <a href="https://github.com/" class="btn btn-primary" role="button" target="_blank" id="profile-link">Link
+            to my GitHub</a>
+    </main>
 
-        </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
